@@ -1,0 +1,1391 @@
+/* ........ this is google fonts ........ */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this is html tag  */
+html {
+    scroll-behavior: smooth;
+}
+
+/*......... this is body tag .........  */
+
+body {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #fb5200;
+}
+
+/*this is Root */
+.Root {
+    overflow-x: hidden;
+}
+
+/* ....... this is all heading tag ........ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+/* ................ this is all section ................. */
+
+section {
+    padding: 80px 0px;
+}
+
+/* ........ this is header tag ....... */
+
+.container {
+    margin: auto;
+    padding: 0px 15px;
+    width: 1140px;
+}
+
+#topBarHeader {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.topBar {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topBar .phone {
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 250px;
+
+}
+
+.topBar .phone i {
+    color: #ff5200;
+}
+
+.topBar .email {
+    padding: 15px 10px;
+    width: 293px;
+}
+
+.topBar .email i {
+    color: #ff5200;
+}
+
+.topBar .social {
+    display: flex;
+    width: 140px;
+    transition: .9s all;
+}
+
+.topBar .social a {
+    display: block;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #2b2b2b;
+}
+
+.topBar .social a:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.topBar .social i {
+    color: #000;
+}
+
+.topBar .social i:hover {
+    color: #ff5200;
+}
+
+/* .......... this is navbar ......... */
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 49px;
+    z-index: 5;
+    background-color: white;
+    box-shadow: 0px 6px 5px 1px rgba(0, 0, 0, 0.49);
+    -webkit-box-shadow: 0px 6px 0px 0px rgb(0 0 0 / 8%);
+    -moz-box-shadow: 0px 6px 5px 1px rgba(0, 0, 0, 0.49);
+}
+
+.primaryWrapper {
+    overflow: hidden;
+}
+
+.logo {
+    width: 120px;
+    font-size: 25px;
+    float: left;
+    line-height: 60px;
+    font-weight: 900;
+    color: #000;
+}
+
+.primaryWrapper .logo span {
+    color: #ff5200;
+}
+
+.primaryWrapper .menu {
+    width: 990px;
+    float: left;
+}
+
+.menu .menuItems {
+    float: right;
+    display: flex;
+}
+
+.menuItems li {
+    list-style-type: none;
+}
+
+.menuItems li a {
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    display: block;
+    color: #0e0e0e;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.menu .menuItems:last-child {
+    margin-top: 5px;
+}
+
+.menu .menuItems li a:hover {
+    color: #ff5200;
+}
+
+.menu .menuItems li i {
+    color: #000;
+}
+
+.menu .menuItems li i:hover {
+    color: #ff5200;
+}
+
+nav .navToggle {
+    border: none;
+    background: none;
+
+}
+
+nav .navToggle i {
+    font-size: 35px;
+    color: #000;
+
+}
+
+/* .................. this is banner tag .................. */
+
+.banner {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Image/Architech.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.sliderContent {
+    color: white;
+    position: relative;
+    width: 600px;
+    top: 120px;
+}
+
+.sliderContent h1 {
+    margin-bottom: 30px;
+    margin-top: 60px;
+    float: left;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sliderContent p {
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 25px;
+    width: 555px;
+}
+
+button#workWithUs {
+    margin-bottom: 45px;
+    padding: 16px 30px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #ff5200;
+}
+
+.sliderDootes {
+    margin: auto;
+    padding: 40px 0px;
+    width: 44px;
+}
+
+.sliderDootes span {
+    margin: 5px 5px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+    border: 4px solid #ff5200;
+    background-color: transparent;
+}
+
+.sliderDootes span:last-child {
+    background-color: #ff5200;
+    border-color: #ff5200;
+}
+
+/* .................. this is main tag .................. */
+
+main {
+    padding: 40px 0px 80px;
+    background-color: #f5f6f6;
+}
+
+.servicesBox {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.singleBox {
+    width: 225px;
+    background-color: white;
+    padding: 15px;
+    transition: .3s all;
+}
+
+.singleBox i {
+    color: #ff5200;
+}
+
+.singleBox:hover {
+    background-color: #ff5200;
+    color: white;
+    cursor: pointer;
+}
+
+.singleBox:hover .sBoxIcon i {
+    color: white;
+}
+
+.singleBox:hover h2,
+i {
+    color: white;
+}
+
+.singleBox:hover .sBoxLink a {
+    color: white;
+}
+
+.singleBox:hover i.fa-long-arrow-alt-right {
+    color: white;
+}
+
+.singleBox.active {
+    background-color: #ff5200;
+    color: white;
+}
+
+.singleBox.active h2 {
+    color: white;
+}
+
+.singleBox.active i {
+    color: white;
+}
+
+.singleBox.active a {
+    color: white;
+}
+
+.singleBox .fa-long-arrow-alt-right {
+    color: #ff5200;
+}
+
+.sBoxTitle {
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+
+.sBoxTitle h2 {
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    color: #333;
+    line-height: 28px;
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+
+.sBoxIcon {
+    text-align: center;
+    font-size: 40px;
+    color: #ff5200;
+    margin: 30px 0px;
+}
+
+.sBoxDisc {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.sBoxLink {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.sBoxLink a {
+    text-decoration: none;
+    color: #ff5200;
+    font-weight: 500;
+}
+
+/* ................. this is WorkourTeam .................*/
+#WorkourTeam {
+    background-color: white;
+}
+
+.teamContent {
+    overflow: hidden;
+}
+
+.teamImage {
+    width: 535px;
+    float: left;
+}
+
+.teamImage img {
+    max-width: 100%;
+    height: 410px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.teamDetels {
+    width: 535px;
+    float: right;
+}
+
+.titleDec h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.titleDec p {
+    color: #666;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.teamFasalites {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.teamFasalites ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 260px;
+    float: left;
+}
+
+.teamFasalites ul li {
+    line-height: 40px;
+}
+
+.teamFasalites ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s all;
+}
+
+.teamFasalites ul li a:hover {
+    color: #ff5200;
+}
+
+.teamContactButton a {
+    background: #ff5200;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    width: 148px;
+    text-align: center;
+    border-radius: 3px;
+    transition: 0.3s all;
+}
+
+.teamContactButton a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* .....................this is whyChooseUs section ...........*/
+
+#WhyChooseUs {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(..//Image/constraction3.jpg);
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.IconsWrapper {
+    overflow: hidden;
+}
+
+.singleIcons {
+    width: 202px;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-right: 100px;
+}
+
+.Sicon {
+    font-size: 40px;
+}
+
+.singleIcons h2 {
+    font-size: 55px;
+    font-weight: 900;
+    margin: 10px 0px;
+    font-family: arial black;
+}
+
+.singleIcons h4 {
+    font-size: 22px;
+}
+
+.singleIcons:last-child {
+    margin-right: 0;
+}
+
+/* ...................... this is blog post ....................*/
+
+
+#blogPost {
+    background-color: #f5f6f6;
+}
+
+.sectionTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sectionTitle h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.sectionTitle h2:after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    border: 2px solid #ff5200;
+    top: 66px;
+    bottom: 0;
+    left: 48%;
+}
+
+.sectionTitle p {
+    width: 600px;
+    margin: auto;
+    line-height: 25px;
+    font-size: 16px;
+    color: #666;
+}
+
+.postWrapper {
+    overflow: hidden;
+}
+
+.singlePost {
+    width: 251px;
+    overflow: hidden;
+    float: left;
+    margin-right: 35px;
+}
+
+.singlePost:last-child {
+    margin-right: 0;
+}
+
+.singlePost img {
+    width: 100%;
+    height: 200px;
+}
+
+.postImage {
+    margin-bottom: 20px;
+}
+
+.postInfo p {
+    margin-top: 10px;
+    color: #666;
+    line-height: 23px;
+}
+
+/* .................... this is pricing plan section ........*/
+#Pricing {
+    background-color: white;
+}
+
+#plan {
+    position: relative;
+}
+
+#plan h2:after {
+    content: '';
+    left: 46%;
+}
+
+.TableList {
+    overflow: hidden;
+    display: table;
+    background-color: #fafafa;
+}
+
+.singleTable {
+    width: 347px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #e6e6e6;
+    padding: 30px;
+    margin-right: 34px;
+}
+
+.singleTable h3 {
+    font-size: 25px;
+}
+
+.singleTable h1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: arial black;
+    margin: 8px 0px;
+}
+
+.singleTable h1 span {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: arial;
+}
+
+.singleTable ul {
+    list-style: none;
+}
+
+.singleTable ul li {
+    line-height: 40px;
+    color: #777;
+}
+
+.singleTable ul li i {
+    font-size: 14px;
+    color: #fb5200;
+}
+
+button#getStarted {
+    background-color: #ff5200;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 800;
+    font-family: 'Oswald';
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    border-radius: 3px;
+}
+
+button#getStarted:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #333;
+}
+
+.singleTable:first-child {
+    box-shadow: -20px 0px 8px #f6f6f6;
+}
+
+.singleTable:last-child {
+    margin-right: 0;
+    box-shadow: 20px 0px 8px #f6f6f6;
+}
+
+/* .............this is our idea section .............  */
+
+#Idea {
+    padding: 0px;
+    height: 450px;
+}
+
+.ideamainContent {
+    display: flex;
+}
+
+.IdealeftImage img {
+    height: 450px;
+    width: 650px;
+}
+
+.RightContent {
+    width: 696px;
+    height: 450px;
+    background-color: #222222;
+    color: white;
+}
+
+.Rcontenttitle {
+    padding: 20px 42px;
+}
+
+.Rcontenttitle h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Rcontenttitle p {
+    font-size: 17px;
+}
+
+.RcontenIcons {
+    padding: 10px 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.RiconSingle {
+    margin-bottom: 20px;
+    width: 145px;
+}
+
+.RiconSingle:nth-child(3) {
+    margin-bottom: 0px;
+}
+
+.RiconSingle:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+.ricon {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ricon i {
+    font-size: 50px;
+    color: #fb5200;
+}
+
+.riconTitle h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+    transition: 0.5s all;
+}
+
+.riconTitle p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.riconTitle h2:hover {
+    color: #fb5200;
+    cursor: pointer;
+}
+
+/* <-- ...................... this is our team section ................... --> */
+#ourTeam {
+    background-color: white;
+}
+
+#team {
+    position: relative;
+}
+
+#team h2::after {
+    position: absolute;
+    left: 517px;
+    width: 70px;
+}
+
+.TeamPersons {
+    overflow: hidden;
+}
+
+.sectionTitle p {
+    width: 615px;
+    margin: auto;
+    line-height: 25px;
+    font-size: 15px;
+    color: #777;
+}
+
+.singlePerson {
+    width: 260px;
+    overflow: hidden;
+    float: left;
+    margin-right: 23px;
+}
+
+.singlePerson:last-child {
+    margin-right: 0px;
+}
+
+.singlePerson img {
+    width: 100%;
+    height: 200px;
+    transition: .3s all;
+}
+
+.personInfo {
+    margin-top: -3px;
+    padding: 22px 15px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.personInfo h3 {
+    font-size: 18px;
+}
+
+.personInfo p {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #777;
+}
+
+.joinTeamButton {
+    margin: 70px;
+    display: grid;
+    place-items: center;
+}
+
+.joinTeamButton button {
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: .3s all;
+    background-color: #333;
+}
+
+.joinTeamButton button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #fb5200;
+}
+
+.personImage {
+    overflow: hidden;
+    position: relative;
+}
+
+.personalIcons {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    left: 50%;
+    width: 170px;
+    transform: translateX(-50%);
+}
+
+
+.personalIcons a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    border-radius: 100%;
+    color: white;
+    margin: 5px;
+    transition: 0.3s all;
+}
+
+.personalIcons a:nth-child(1) {
+    background-color: #3b5998;
+    opacity: 0;
+    transition: .90s;
+}
+
+.personalIcons a:nth-child(2) {
+    opacity: 0;
+    transition: .70s;
+    background-color: #00acee;
+}
+
+.personalIcons a:nth-child(3) {
+    opacity: 0;
+    transition: .50s;
+    background-color: #0e76a8;
+}
+
+.personalIcons a:nth-child(4) {
+    opacity: 0;
+    transition: .30s;
+    background-color: #db4a39;
+}
+
+.singlePerson:hover .personalIcons a:nth-child(1) {
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+.singlePerson:hover .personalIcons a:nth-child(2) {
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+.singlePerson:hover .personalIcons a:nth-child(3) {
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+.singlePerson:hover .personalIcons a:nth-child(4) {
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+.singlePerson:hover .personImage img {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* <!-- ................this is project section .......... --> */
+
+#Project {
+    background-color: #f5f6f6;
+}
+
+#OurProject {
+    position: relative;
+}
+
+#OurProject h2::after {
+    position: absolute;
+    left: 520px;
+}
+
+.projectWrapper {
+    overflow: hidden;
+    column-count: 3;
+}
+
+.SingleProject {
+    margin-bottom: 30px;
+    width: 340px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.SingleProject:last-child {
+    margin-right: 0px;
+}
+
+.SingleProject img {
+    width: 100%;
+    height: 240px;
+}
+
+
+.ProjectInfo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 30px;
+    background: linear-gradient(to top, black, transparent 160px);
+    color: white;
+    padding-bottom: 0px;
+    transition: 0.3s all;
+}
+
+.projectMeta {
+    width: 319px;
+    margin-bottom: 15px;
+}
+
+.projectMeta a {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#LearnMoreButton {
+    display: block;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    transform: translateX(-150px);
+    visibility: hidden;
+}
+
+#LearnMoreButton i {
+    font-size: 13px;
+    color: white;
+    margin-left: 10px;
+}
+
+.SingleProject:hover .ProjectInfo {
+    padding: 40px 30px !important;
+    cursor: pointer;
+    background: linear-gradient(to top, black, transparent 180px) !important;
+}
+
+.SingleProject:hover #LearnMoreButton {
+    transform: translateX(0px) !important;
+    text-decoration: none;
+    display: block;
+    transition-delay: 0.3s;
+    transition: 0.3s;
+    visibility: visible;
+    transition-timing-function: cubic-bezier(0, 0.43, 0.15, 1.09);
+}
+
+/*<!-- ......................... this is news section .............................. -->*/
+#LatestNews {
+    background-color: white;
+}
+
+#News {
+    position: relative;
+}
+
+#News h2::after {
+    position: absolute;
+    left: 483px;
+    width: 115px;
+}
+
+.newsWrapper {
+    overflow: hidden;
+}
+
+.singleNews {
+    overflow: hidden;
+    width: 350px;
+    margin-right: 30px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.singleNews:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.singleNews:last-child {
+    margin-right: 0px !important;
+}
+
+.newsImage {
+    overflow: hidden;
+}
+
+.newsImage img {
+    width: 100%;
+    height: 240px;
+    transition: .3s;
+}
+
+.newsMeta {
+    margin-top: -4px;
+    padding: 30px;
+    border-left: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.newsCatagury {
+    margin-bottom: 20px;
+}
+
+.newsCatagury a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #444;
+    display: block;
+    width: 120px;
+    float: left;
+    font-size: 13px;
+}
+
+.newsCatagury a:last-child {
+    margin-left: 45px;
+}
+
+.newsCatagury a:first-child:hover {
+    color: #999;
+}
+
+.newsCatagury a:last-child:hover {
+    color: #fb5200;
+}
+
+.newsCatagury {
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.newsTitle h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.newsTitle h2:hover a {
+    color: #fb5200;
+}
+
+.newsTitle h2 {
+    margin-bottom: 12px;
+}
+
+.newsTitle p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+#NewsReadMorebutton {
+    color: #fb5200;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#NewsReadMorebutton i {
+    font-size: 12px;
+    color: #fb5200;
+}
+
+.newsCatagury:after {
+    content: "";
+    width: 20px;
+    position: absolute;
+    border-bottom: 2px solid #fb5200;
+    left: 85px;
+    top: 7px;
+}
+
+/* <!-- ........this is subscript section ..... --> */
+.subsboxWraper {
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-color: #fb5200;
+    border-radius: 3px;
+}
+
+.subboxsingle {
+    width: 370px;
+    float: left;
+    padding: 30px;
+    overflow: hidden;
+    color: white;
+}
+
+.subboxsingle:last-child {
+    margin-right: 0px;
+}
+
+.subboxsingle h2 {
+    color: white;
+    margin-bottom: 22px;
+}
+
+.inputbox {
+    position: relative;
+}
+
+.inputbox input[type="text"] {
+    width: 80%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+}
+
+.inputbox input[type="submit"] {
+    padding: 16px 16px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 14px;
+    width: 120px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.Subsfollowicons {
+    overflow: hidden;
+}
+
+.Subsfollowicons a {
+    display: grid;
+    width: 35px;
+    height: 35px;
+    float: left;
+    border: 1px solid white;
+    place-items: center;
+    border-radius: 100%;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.Subsfollowicons a:hover {
+    color: white;
+    background-color: black;
+}
+
+#subscript {
+    position: relative;
+    margin-bottom: -180px;
+}
+
+/* <!-- ....... this is footer ............ --> */
+
+footer {
+    background-color: #1a1a1a;
+    padding-top: 200px;
+}
+
+.fboxWrap {
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.fbox {
+    overflow: hidden;
+    width: 250px;
+    float: left;
+    color: #999;
+    margin-right: 30px;
+}
+
+.fbox:last-child {
+    margin-right: 0px;
+}
+
+.fbox h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.fbox p {
+    line-height: 23px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.fbox #contact {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.fbox span i {
+    color: #fb5200;
+    margin-right: 10px;
+}
+
+.uflinks li {
+    list-style: none;
+    line-height: 25px;
+}
+
+.uflinks li a {
+    color: #999;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0px;
+    border-bottom: 1px dashed #a09595;
+}
+
+.uflinks li i {
+    font-size: 13px;
+}
+
+.frpost {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.RpostMeta {
+    width: 65px;
+    background-color: #313131;
+    padding: 12px 10px;
+    border-radius: 3px;
+    color: white;
+    float: left;
+}
+
+.frpostTitle {
+    width: 175px;
+    float: right;
+}
+
+.frpostTitle h3 {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #999;
+}
+
+.frpostTitle a {
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.RpostMeta {
+    text-align: center;
+}
+
+.RpostMeta span:first-child {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.RpostMeta span:last-child {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 5px;
+    display: block;
+    line-height: 10px;
+}
+
+.ficons a {
+    display: block;
+    width: 29px;
+    background-color: #666;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.CopyrightContainer {
+    overflow: hidden;
+    color: #999;
+    border-top: 1px solid #333;
+}
+
+.CopyrightContainer .container {
+    overflow: hidden;
+}
+
+.copyrighttext {
+    width: 540px;
+    float: left;
+    padding: 25px 0px;
+}
+
+.copymenu {
+    width: 570px;
+    float: right;
+}
+
+.copymenu ul {
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+
+.copymenu ul li {
+    float: left;
+}
+
+.CopyrightContainer .copymenu ul li a {
+    color: #999;
+    display: block;
+    text-decoration: none;
+    padding: 25px 15px;
+}

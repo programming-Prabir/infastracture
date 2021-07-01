@@ -1,0 +1,1178 @@
+/* Extra large desktop device  */
+@media (min-width:1201px) {
+    nav .navToggle {
+        display: none;
+    }
+
+    nav {
+        height: 67px;
+    }
+
+    .logo {
+        line-height: 67px;
+    }
+
+    .singleIcons h4 {
+        font-size: 21px;
+    }
+
+    main {
+        padding: 40px 0px 40px;
+    }
+
+    .leftContent {
+        width: 50%;
+    }
+
+    .IdealeftImage img {
+        width: 885px;
+    }
+
+    .RightContent {
+        width: 50%;
+    }
+
+    .SingleProject {
+        margin-bottom: 30px;
+        width: 340px;
+        float: none;
+        margin-right: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .Rcontenttitle p {
+        text-align: center;
+    }
+
+    .RcontenIcons {
+        justify-content: space-around;
+    }
+
+    .SingleProject:nth-child(5) {
+        margin-right: 0px;
+    }
+
+    .SingleProject {
+        width: 358px;
+    }
+
+    .newsCatagury:after {
+        left: 110px;
+    }
+}
+
+/* large desktop and laptop  */
+@media(max-width:1200px) {
+
+    .container {
+        margin: auto;
+        padding: 0px 15px;
+        width: 1050px;
+        max-width: 100%;
+    }
+
+    nav .navToggle {
+        display: none;
+    }
+
+    nav {
+        height: 67px;
+    }
+
+    .primaryWrapper {
+        display: flex;
+        overflow: initial;
+        justify-content: space-around;
+    }
+
+    .logo {
+        float: none;
+        line-height: 67px;
+    }
+
+    .menu .menuItems:last-child {
+        margin-top: 0px;
+    }
+
+    .primaryWrapper .menu {
+        width: 715px;
+        float: none;
+    }
+
+    .menu .menuItems {
+        float: none;
+        line-height: 27px;
+    }
+
+    .teamContent {
+        overflow: initial;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main {
+        padding: 40px 0px 40px;
+    }
+
+    .teamImage {
+        width: 49%;
+        float: none;
+    }
+
+    .teamDetels {
+        width: 49%;
+        float: none;
+    }
+
+    .teamFasalites ul {
+        width: 225px;
+    }
+
+    .teamFasalites ul li {
+        line-height: 35px;
+    }
+
+    .IconsWrapper {
+        overflow: initial;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .singleIcons {
+        float: none;
+        width: 211px;
+        margin-right: 0px;
+    }
+
+    .postWrapper {
+        overflow: initial;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .singlePost {
+        width: 245px;
+        overflow: initial;
+        float: none;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+
+    .singlePost:last-child {
+        margin-right: 0;
+        margin-bottom: 0px;
+    }
+
+    .TableList {
+        overflow: initial;
+        background-color: initial;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .singleTable {
+        overflow: initial;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .singleTable:first-child {
+        box-shadow: initial;
+    }
+
+    .singleTable:last-child {
+        margin-right: 0;
+        box-shadow: initial;
+        margin-bottom: 0px;
+    }
+
+    .projectWrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .SingleProject {
+        float: none;
+    }
+
+    .leftContent {
+        width: 50%;
+    }
+
+    .RightContent {
+        width: 50%;
+    }
+
+    .RcontenIcons {
+        padding: 10px 40px;
+        justify-content: space-around;
+    }
+
+    .Rcontenttitle p {
+        text-align: center;
+    }
+
+    .TeamPersons {
+        overflow: initial;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .singlePerson {
+        width: 260px;
+        overflow: initial;
+        float: none;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+
+    .singlePerson:last-child {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #OurProject h2::after {
+        left: 423px;
+    }
+
+    .SingleProject {
+        width: 315px;
+        float: left;
+        margin-right: 0px;
+    }
+
+    .projectMeta {
+        width: 285px;
+    }
+
+    #News h2::after {
+        left: 440px;
+    }
+
+    .newsWrapper {
+        overflow: initial;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .singleNews {
+        overflow: initial;
+        width: 350px;
+        margin-right: 0px;
+        float: none;
+        margin-bottom: 50px;
+    }
+
+    .singleNews:last-child {
+        margin-bottom: 0px;
+    }
+
+    .newsCatagury:after {
+        left: 108px;
+    }
+
+    .subsboxWraper {
+        padding-bottom: 0px;
+    }
+
+    .subboxsingle {
+        width: 321px;
+        padding: 30px;
+    }
+
+    .subboxsingle h2 {
+        text-align: center;
+    }
+
+    .Subsfollowicons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Subsfollowicons a {
+        margin-right: 0px;
+    }
+
+    .fboxWrap {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .fbox {
+        overflow: hidden;
+        width: 240px;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .fbox:last-child {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .uflinks li {
+        width: 225px;
+    }
+
+    .frpostTitle {
+        width: 165px;
+    }
+
+    .copyrighttext {
+        width: initial;
+    }
+
+    .copymenu {
+        width: initial;
+    }
+}
+
+/* small laptop and Extra large tablet */
+@media (max-width:992px) {
+    .container {
+        margin: auto;
+        padding: 0px 15px;
+        width: 750px;
+        max-width: 100%;
+    }
+
+    nav .navToggle {
+        display: block;
+    }
+
+    .sectionTitle h2:after {
+        left: 47%;
+    }
+
+    .topBarMain .topBar {
+        justify-content: space-evenly;
+    }
+
+    nav {
+        height: 60px;
+    }
+
+    .primaryWrapper .menu {
+        width: 100%;
+    }
+
+    .menu {
+        position: fixed;
+        top: 108px;
+        background-color: #ffffff4a;
+        padding: 0px 45%;
+        box-shadow: 0px 6px 5px 1px rgba(0, 0, 0, 0.49);
+        -webkit-box-shadow: 0px 6px 0px 0px rgb(0 0 0 / 8%);
+        -moz-box-shadow: 0px 6px 5px 1px rgba(0, 0, 0, 0.49);
+        transition: .3s all ease-in-out;
+        transform: translateY(-50rem);
+    }
+
+    .Show {
+        transform: translateY(0rem);
+
+    }
+
+    .menu .menuItems {
+        display: block;
+        float: none;
+    }
+
+    .menu .menuItems a {
+        text-align: center;
+        font-size: 20px;
+        padding: 20px 0px;
+        width: 90px;
+    }
+
+    .menu .menuItems li {
+        width: 90px;
+    }
+
+    .primaryWrapper {
+        overflow: initial;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav .navToggle i {
+        line-height: 60px;
+    }
+
+    .primaryWrapper .logo {
+        font-size: 30px;
+        float: none;
+        font-weight: 900;
+    }
+
+    .menu .menuItems:last-child {
+        margin-top: 0px;
+    }
+
+    main {
+        padding: 40px 0px 80px;
+    }
+
+    main .servicesBox {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .singleBox {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .teamContent {
+        display: block;
+    }
+
+    .teamImage {
+        margin-bottom: 50px;
+    }
+
+    .teamImage {
+        width: inherit;
+        float: none;
+    }
+
+    .teamDetels {
+        width: inherit;
+        float: none;
+    }
+
+    .singleIcons {
+        width: 163px;
+        margin-right: 20px;
+    }
+
+    .singleIcons h2 {
+        font-size: 45px;
+    }
+
+    .singleIcons h4 {
+        font-size: 17px;
+    }
+
+    .singlePost {
+        width: 300px;
+        margin-right: 120px;
+        margin-bottom: 50px;
+    }
+
+    .singlePost:nth-child(even) {
+        margin-right: 0px;
+
+    }
+
+    .singlePost:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    .singlePost:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    .singleTable {
+        margin-bottom: 50px;
+        margin-right: 25px;
+    }
+
+    .singleTable:last-child {
+        margin-bottom: 0px;
+        float: none;
+        margin: auto;
+        box-shadow: initial;
+    }
+
+    .singleTable:nth-child(2) {
+        margin-right: 0px;
+    }
+
+    .TableList {
+        background-color: initial;
+    }
+
+    .leftContent {
+        display: none;
+    }
+
+    .RightContent {
+        width: 100%;
+    }
+
+    .Rcontenttitle p {
+        text-align: center;
+    }
+
+    .RcontenIcons {
+        justify-content: space-around;
+    }
+
+    #team h2::after {
+        left: 323px;
+    }
+
+    .singlePerson {
+        width: 285px;
+        margin-right: 150px;
+        margin-bottom: 50px;
+    }
+
+    .singlePerson:nth-child(even) {
+        margin-right: 0px;
+    }
+
+    .singlePerson:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    .singlePerson:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    #OurProject h2::after {
+        position: absolute;
+        left: 320px;
+    }
+
+    .projectWrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-count: initial;
+    }
+
+    .SingleProject {
+        width: 354px;
+        float: none;
+    }
+
+    .SingleProject:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    .SingleProject:nth-child(5) {
+        margin-right: 0px;
+    }
+
+    #News h2::after {
+        left: 290px;
+    }
+
+    .singleNews {
+        width: 335px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+
+    .newsCatagury {
+        text-align: center;
+    }
+
+    .newsCatagury:after {
+        left: 110px;
+    }
+
+    .newsCatagury a:last-child {
+        margin-left: 0px;
+    }
+
+    .singleNews:nth-child(2) {
+        margin-right: 0px;
+    }
+
+    .singleNews:last-child {
+        margin-bottom: 0px;
+    }
+
+    .subboxsingle {
+        width: 239px;
+        padding: 15px;
+    }
+
+    .subboxsingle .subbxsingleheading {
+        text-align: center;
+    }
+
+    .subboxsingle .emailus {
+        display: none;
+    }
+
+    .subboxsingle .callus {
+        font-size: 15px;
+    }
+
+    .subsboxWraper #subboxsingleone {
+        display: none;
+    }
+
+    .subsboxWraper #subboxsingletwo {
+        margin-right: 14.5rem;
+    }
+
+    .subsboxWraper {
+        padding: 10px 5px;
+    }
+
+    .fbox {
+        width: 275px;
+        margin-right: 170px;
+        margin-bottom: 4rem;
+    }
+
+    .fbox:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    .fbox:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    .fbox:nth-child(even) {
+        margin-right: 0px;
+    }
+
+    .copyrighttext {
+        width: initial;
+        float: left;
+    }
+
+    .copymenu {
+        width: initial;
+        float: right;
+    }
+}
+
+/* large table and kind screen and Extra large mobie*/
+@media (max-width:768px) {
+    .container {
+        margin: auto;
+        padding: 0px 15px;
+        width: 700px;
+        max-width: 100%;
+    }
+
+    .primaryWrapper .menu {
+        width: 100%;
+    }
+
+    .menu {
+        left: 0px;
+    }
+
+    .sectionTitle h2:after {
+        display: none;
+    }
+
+    .topBar .social {
+        display: none;
+    }
+
+    .topBar .email {
+        display: none;
+    }
+
+    .topBar .phone {
+        width: initial;
+        font-size: 20px;
+    }
+
+    nav .navToggle {
+        display: block;
+    }
+
+    .primaryWrapper {
+        justify-content: space-between;
+    }
+
+    main {
+        padding: 0px 0px 40px;
+    }
+
+    .teamContent {
+        overflow: initial;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .teamImage img {
+        width: 469px;
+    }
+
+    .teamImage {
+        width: initial;
+        float: none;
+    }
+
+    .teamDetels {
+        width: initial;
+        float: none;
+    }
+
+    .sliderContent {
+        width: 430px;
+    }
+
+    .titleDec p {
+        width: 466px;
+    }
+
+    .sliderContent h1 {
+        font-size: 40px;
+    }
+
+    .sliderContent p {
+        width: initial;
+    }
+
+    #WhyChooseUs {
+        height: 72vh;
+    }
+
+    .IconsWrapper {
+        overflow: initial;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .singleIcons {
+        width: 225px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .singleIcons:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    .singleIcons:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    .sectionTitle h2:after {
+        left: 45%;
+    }
+
+    .singlePost:nth-child(3) {
+        margin-bottom: 50px;
+    }
+
+    .sectionTitle p {
+        width: 449px;
+        line-height: 19px;
+        font-size: 13px;
+    }
+
+    .postWrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .postWrapper .singlePost {
+        float: none;
+        width: 310px;
+        margin-right: 0px;
+    }
+
+    .TableList {
+        background-color: initial;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .singlePerson:nth-child(3) {
+        margin-bottom: 50px;
+    }
+
+    .singleTable {
+        width: 315px;
+        padding: 30px 15px;
+        float: none;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+
+    .singleTable:first-child {
+        box-shadow: initial;
+    }
+
+    .Rcontenttitle {
+        padding: 5px 42px 15px;
+    }
+
+    .RcontenIcons {
+        padding: 10px 50px;
+    }
+
+    .RiconSingle {
+        margin-bottom: 20px;
+        width: 167px;
+    }
+
+    #team h2::after {
+        left: 190px;
+    }
+
+    .TeamPersons {
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .singlePerson {
+        width: 300px;
+        overflow: initial;
+        float: none;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+
+    .projectWrapper {
+        overflow: initial;
+        column-count: initial;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .SingleProject:nth-child(3) {
+        margin-bottom: 30px;
+    }
+
+    .SingleProject {
+        float: none;
+        height: 250px;
+        width: 320px;
+        margin-right: 0px;
+        position: none;
+        overflow: initial;
+    }
+
+    .newsWrapper {
+        overflow: initial;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .singleNews {
+        width: 320px;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .singleNews:last-child {
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .subsboxWraper {
+        padding: 10px 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subsboxWraper #subboxsingletwo {
+        margin-right: 0px;
+    }
+
+    .Subsfollowicons a {
+        margin-right: 0px;
+    }
+
+    .Subsfollowicons {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fboxWrap {
+        overflow: hidden;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .fbox {
+        margin-bottom: 4rem;
+        overflow: initial;
+        float: none;
+        color: #999;
+        margin-right: 0px;
+    }
+
+    .fbox:nth-child(3) {
+        margin-bottom: 4rem;
+    }
+
+    .copyrightwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .copyrighttext {
+        width: 383px;
+        float: none;
+        text-align: center;
+    }
+
+    .copymenu {
+        width: 324px;
+        float: none;
+    }
+
+    .copymenu ul {
+        float: none;
+    }
+
+    .CopyrightContainer .copymenu ul li a {
+        padding: 25px 10px;
+    }
+}
+
+/* Small mobile and large mobile   */
+@media (max-width:480px) {
+    .container {
+        margin: auto;
+        width: 320px;
+        max-width: 100%;
+    }
+
+    nav .navToggle {
+        display: block;
+    }
+
+    .topBar .phone {
+        font-size: 16px;
+    }
+
+    nav .navToggle i {
+        font-size: 30px;
+    }
+
+    .menu .menuItems li {
+        transform: translateX(-20px);
+    }
+
+    .teamContent {
+        display: block;
+    }
+
+    .teamImage {
+        margin-bottom: 30px;
+    }
+
+    .teamImage {
+        width: initial;
+        float: none;
+    }
+
+    .teamImage img {
+        width: 288px;
+    }
+
+    .teamDetels {
+        width: 100%;
+    }
+
+    .sliderContent {
+        width: 365px;
+    }
+
+    .sliderContent h1 {
+        font-size: 26px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .sliderContent p {
+        margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 18px;
+        width: 263px;
+    }
+
+    button#workWithUs {
+        padding: 12px 8px;
+        font-size: 16px;
+    }
+
+    .sliderDootes {
+        display: none;
+    }
+
+    .singleBox {
+        margin-top: 30px;
+    }
+
+    .titleDec h2 {
+        font-size: 26px;
+    }
+
+    .titleDec p {
+        width: 263px;
+        line-height: 20px;
+    }
+
+    .teamFasalites ul {
+        float: none;
+    }
+
+    .teamContactButton a {
+        padding: 10px 0px;
+        font-size: 15px;
+        width: 115px;
+    }
+
+    .IconsWrapper {
+        justify-content: space-between;
+    }
+
+    .singleIcons {
+        width: 124px;
+    }
+
+    .singlePerson:nth-child(3) {
+        margin-bottom: 50px;
+    }
+
+    .Sicon {
+        font-size: 35px;
+    }
+
+    .singleIcons h2 {
+        font-size: 30px;
+        margin: 0px 0px;
+    }
+
+    #WhyChooseUs {
+        height: 58vh;
+        padding: 10px 0px;
+    }
+
+    .singleIcons h4 {
+        font-size: 16px;
+    }
+
+    .sectionTitle h2 {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .sectionTitle p {
+        width: 265px;
+        line-height: 13px;
+        font-size: 9px;
+    }
+
+    .singleTable ul li {
+        line-height: 24px;
+        font-size: 12px;
+    }
+
+    .singleTable h3 {
+        text-align: center;
+    }
+
+    .singleTable h1 {
+        text-align: center;
+    }
+
+    button#getStarted {
+        padding: 8px 8px;
+        font-size: 13px;
+        margin: 20px 60px;
+    }
+
+    .Rcontenttitle {
+        padding: 5px 10px 15px;
+    }
+
+    .Rcontenttitle h1 {
+        font-size: 23px;
+    }
+
+    .RcontenIcons {
+        padding: 10px 5px;
+    }
+
+    .singlePost:nth-child(3) {
+        margin-bottom: 50px;
+    }
+
+    .ricon i {
+        font-size: 43px;
+    }
+
+    .riconTitle h2 {
+        font-size: 16px;
+    }
+
+    .RiconSingle {
+        width: 125px;
+    }
+
+    .joinTeamButton button {
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+
+    #OurProject h2 {
+        font-size: 33px;
+    }
+
+    .projectMeta {
+        width: 260px;
+    }
+
+    .newsCatagury {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .newsCatagury a {
+        width: 76px;
+        float: none;
+        font-size: 13px;
+    }
+
+    .newsCatagury:after {
+        left: 103px;
+    }
+
+    .subsboxWraper #subboxsingletwo {
+        display: none;
+    }
+
+    .subsboxWraper {
+        padding: 10px 25px;
+    }
+
+    .copyrighttext {
+        padding: 10px 0px;
+    }
+
+    .CopyrightContainer .copymenu ul li a {
+        padding: 10px 5px;
+    }
+}
